@@ -27,11 +27,11 @@ pip install pandas
 **CONFIGURATION (EMAIL)**
 Create a .env file in the same directory as Automated.py:
 
-  SMTP_SERVER=smtp.gmail.com
-  SMTP_PORT=587
-  EMAIL_SENDER=your_sender@gmail.com
-  EMAIL_PASSWORD=your_app_password
-  EMAIL_RECIPIENT=recipient1@example.com,recipient2@example.com
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+EMAIL_SENDER=your_sender@gmail.com
+EMAIL_PASSWORD=your_app_password
+EMAIL_RECIPIENT=recipient1@example.com,recipient2@example.com
 
 IMPORTANT
 - Do not commit .env into Git.
