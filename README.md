@@ -13,17 +13,6 @@ This repository contains a passive monitoring tool that analyzes **SQL Server au
 - **Email alerts:** Sends a summarized report via SMTP when suspicious queries are detected.
 - **Offline processing:** Operates on CSV logs without requiring direct database access or agent-based interception.
 
-## Repository Structure
-├─ Automated.py # Main analyzer: normalize → detect → alert (reads CSV)
-├─ AI-tester.py # Prototype tester for rule tuning / quick runs
-├─ Watch-Xel-Convert-And-Analyze.ps1# PowerShell pipeline: convert .xel → merge CSV → run analyzer
-├─ sample_sql_logs.csv # Sample CSV used for screenshots/tests (safe synthetic data)
-├─ print_before_after.py # Helper: prints Statement vs NormalizedQuery for screenshots
-├─ filter_impact_report.py # Helper: shows filter impact (before/after counts + dropped rows)
-├─ README.md
-└─ .gitignore
-
-
 ## Prerequisites
 ### Software
 - **Python 3.10+**
