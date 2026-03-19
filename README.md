@@ -33,7 +33,6 @@ This repository contains a passive monitoring tool that analyzes **SQL Server au
 
 ### Python Packages
 Install dependencies:
-```bash
 pip install pandas
 
 **CONFIGURATION (EMAIL)**
